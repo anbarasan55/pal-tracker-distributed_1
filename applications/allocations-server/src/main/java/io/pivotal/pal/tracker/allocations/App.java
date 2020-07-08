@@ -13,7 +13,7 @@ import java.util.TimeZone;
 @SpringBootApplication
 @ComponentScan({"io.pivotal.pal.tracker.allocations", "io.pivotal.pal.tracker.restsupport"})
 public class App {
-
+//updated
     public static void main(String[] args) {
         TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
         SpringApplication.run(App.class, args);
@@ -26,5 +26,5 @@ public class App {
     ) {
         return new ProjectClient(restOperations, registrationEndpoint);
     }
-    
+
 }
