@@ -7,6 +7,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.A
 @SpringBootApplication
 public class App extends AuthorizationServerConfigurerAdapter {
 
+
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
     }
